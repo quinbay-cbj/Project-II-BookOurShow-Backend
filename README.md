@@ -15,7 +15,7 @@ MovieMicro Service , MovieTicket Service
 HistoryManagement,UserMicroServices
 UserMicroServices
 postgres:
-  use quinbay
+  \c quinbay
   create table Userlogin(userId text,username text,phonenumber text primary key,password text,role text);
 
 
